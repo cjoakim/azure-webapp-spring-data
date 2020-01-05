@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    image: ${DOCKERHUB_CONTAINER_NAME}
+    ports:
+      - "3000:80"
+    environment:
+    - AZURE_SQL_DATABASE=${AZURE_SQL_DATABASE}
+    - SPRING_DATASOURCE_INITIALIZATION_MODE=${SPRING_DATASOURCE_INITIALIZATION_MODE}
+    - SPRING_DATASOURCE_PLATFORM=${SPRING_DATASOURCE_PLATFORM}
+    - SPRING_DATASOURCE_URL=${SPRING_DATASOURCE_URL}
+    - SPRING_DATASOURCE_USERNAME=${SPRING_DATASOURCE_USERNAME}
+    - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
+
+
+# $ source app-env.sh ; docker-compose up
+# $ source app-env.sh ; docker-compose ps
+# $ source app-env.sh ; docker-compose down
