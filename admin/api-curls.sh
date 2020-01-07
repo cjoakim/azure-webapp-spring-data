@@ -19,7 +19,8 @@ sleep $sleep_sec
 curl -v $base_url"/airports/findByIataCode/CLT"
 sleep $sleep_sec
 
-# example:
+# examples:
+# curl "http://localhost:3000/airports/findByIataCode/CLT"
 # curl "http://cjoakim-spring-data.azurewebsites.net:80/airports/findByIataCode/CLT"
 
 curl -v $base_url"/airports/findByCountry/Denmark"
