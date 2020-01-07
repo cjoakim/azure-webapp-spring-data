@@ -6,6 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Spring JPA Model for the Airports table.
+ * Chris Joakim, Microsoft, 2020/01/07
+ */
+
 @Entity
 @Table(name="Airports")
 public class Airport {

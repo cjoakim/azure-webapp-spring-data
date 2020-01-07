@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Bash script to push the built local container to DockerHub or Azure Container Registry.
-# Chris Joakim, 2020/01/02
+# Chris Joakim, 2020/01/07
 #
 # Usage:
 #   $ ./push-to-registies.sh dockerhub 

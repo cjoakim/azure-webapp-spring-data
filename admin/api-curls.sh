@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# HTTP Client for this app, using curl.
+# Chris Joakim, Microsoft, 2020/01/07
+
 #base_url="http://localhost:3000"
 base_url="http://cjoakim-spring-data.azurewebsites.net:80"
 sleep_sec=5
@@ -15,6 +18,9 @@ sleep $sleep_sec
 
 curl -v $base_url"/airports/findByIataCode/CLT"
 sleep $sleep_sec
+
+# example:
+# curl "http://cjoakim-spring-data.azurewebsites.net:80/airports/findByIataCode/CLT"
 
 curl -v $base_url"/airports/findByCountry/Denmark"
 sleep $sleep_sec

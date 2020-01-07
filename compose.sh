@@ -7,6 +7,6 @@
 # $ ./compose.sh ps
 # $ ./compose.sh down
 #
-# Chris Joakim, Microsoft, 2020/01/03
+# Chris Joakim, Microsoft, 2020/01/07
 
 source app-env.sh display ; docker-compose $1

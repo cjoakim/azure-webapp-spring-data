@@ -5,7 +5,7 @@ Usage:
 
 # Python script to read the app-env.sh script, scan it for exports,
 # and generate the (tedious) echo statements for that script.
-# Chris Joakim, Microsoft, 2020/01/04
+# Chris Joakim, Microsoft, 2020/01/07
 
 import json
 import sys

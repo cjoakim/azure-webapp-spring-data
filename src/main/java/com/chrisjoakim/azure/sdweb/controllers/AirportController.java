@@ -1,9 +1,3 @@
-/*
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See LICENSE in the project root for
- * license information.
- */
-
 package com.chrisjoakim.azure.sdweb.controllers;
 
 import java.util.List;
@@ -22,6 +16,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.chrisjoakim.azure.sdweb.dao.AirportRepository;
 import com.chrisjoakim.azure.sdweb.models.Airport;
 
+/**
+ * MVC Controller for the /airports endpoints
+ * Chris Joakim, Microsoft, 2020/01/07
+ */
 
 @Controller
 @RequestMapping(path="/airports", produces="application/json")

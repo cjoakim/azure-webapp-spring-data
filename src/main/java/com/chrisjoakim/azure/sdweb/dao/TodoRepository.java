@@ -8,6 +8,10 @@ import org.springframework.stereotype.Repository;
 
 import com.chrisjoakim.azure.sdweb.models.Todo;
 
+/**
+ * Spring JPA Repository for the Todo table.
+ * Chris Joakim, Microsoft, 2020/01/07
+ */
 
 @Repository
 public interface TodoRepository extends CrudRepository<Todo, Integer> {

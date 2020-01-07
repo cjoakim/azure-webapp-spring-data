@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialize Spring Boot projects with the 'spring init' command.
-# Chris Joakim, 2020/01/03
+# Chris Joakim, 2020/01/07
 
 name=sdweb
 target_dir=$name

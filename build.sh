@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build and containerize this Spring Boot web application with Maven & Docker.
-# Chris Joakim, 2020/01/03
+# Chris Joakim, 2020/01/07
 
 source app-env.sh 
 

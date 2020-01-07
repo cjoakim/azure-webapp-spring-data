@@ -8,7 +8,7 @@
 #
 # See https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
 #
-# Chris Joakim, Microsoft, 2020/01/04
+# Chris Joakim, Microsoft, 2020/01/07
 
 source ../app-env.sh
 

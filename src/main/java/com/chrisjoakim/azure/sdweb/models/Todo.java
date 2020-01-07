@@ -11,6 +11,11 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
+/**
+ * Spring JPA Model for the Todo table.
+ * Chris Joakim, Microsoft, 2020/01/07
+ */
+
 @Entity
 @Table(name="Todo")
 public class Todo {

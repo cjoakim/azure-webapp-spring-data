@@ -3,7 +3,7 @@
 # Bash shell script to delete or create the Python Virtual Environment
 # used by this app as a HTTP client, etc.
 # Requires Python 3; version 3.7 or higher recommended.
-# Chris Joakim, Microsoft, 2020/01/02
+# Chris Joakim, Microsoft, 2020/01/07
 
 display_help() {
     echo "script options:"

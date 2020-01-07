@@ -2,7 +2,7 @@
 
 # This script defines constant configuration values for this project
 # and is "sourced" by the other (i.e. - maven and docker) bash shell scripts.
-# Chris Joakim, 2020/01/04
+# Chris Joakim, 2020/01/07
 
 # Maven
 export COMPILED_JARFILE="target/sdweb-0.1.0.jar"
